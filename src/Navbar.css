@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
 .top-navbar {
     background-color: brown;
+    padding: 20px 60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navbar .logo {
+    color: white;
+}
+
+.top-navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.top-navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
 }

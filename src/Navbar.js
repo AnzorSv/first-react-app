@@ -3,7 +3,16 @@ import './Navbar.css';
 function Navbar() {
     return (
       <nav className="top-navbar">
-        <h1>LOGO</h1>
+        <h1 className="logo">LOGO</h1>
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Our mission</li>
+            <li>Our vision</li>
+            <li>Blog</li>
+            <li>Shop</li>
+            <li>Contact</li>
+        </ul>
       </nav>
     );
   }
