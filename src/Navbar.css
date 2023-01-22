@@ -1,10 +1,12 @@
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .top-navbar {
-    background-color: brown;
+    background-color: var(--primary-color);
     padding: 20px 60px ;
     display: flex;
     justify-content: space-between;
