@@ -1,0 +1,7 @@
+.top-banner {
+    width: 95%;
+    height: 500px;
+    border-radius: 30px;
+    margin: 50px auto;
+    background-color: var(--light-color);
+}
