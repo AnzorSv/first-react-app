@@ -5,6 +5,8 @@ function Mainmenu() {
         <div className='logo'>
             <img src={logo}></img>
         </div>
+        <input type='text' className='search-input' placeholder='მოძებნეთ სასურველი პროდუქცია ...'></input>
+        <input type='button' className='search-button' value='კატეგორიები'></input>
     </nav>
  );
 }

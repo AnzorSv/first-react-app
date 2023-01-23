@@ -1,16 +1,18 @@
+import cart from './img/cart.png';
+import user from './img/user.png'
 function Topmenu() {
  return (
    <nav className="top-navbar">
-   <h1 className="logo">LOGO</h1>
    <ul>
-       <li>Home</li>
-       <li>About us</li>
-       <li>Our mission</li>
-       <li>Our vision</li>
-       <li>Blog</li>
-       <li>Shop</li>
-       <li>Contact</li>
-       <li>Login/Register</li>
+       <li>ხშირად დასმული კითხვები</li>
+       <li>მისია</li>
+       <li>ანგარიშის შექმნა</li>
+       <li>მაღაზიის შექმნა</li>
+       <li>მაღაზიები</li>
+   </ul>
+   <ul>
+      <li><img src={cart}></img></li>
+      <li><img src={user}></img></li>
    </ul>
  </nav>
  );
