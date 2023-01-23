@@ -1,5 +1,6 @@
 import cart from './img/cart.png';
 import user from './img/user.png'
+
 function Topmenu() {
  return (
    <nav className="top-navbar">

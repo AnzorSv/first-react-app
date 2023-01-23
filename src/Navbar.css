@@ -6,7 +6,7 @@
 /* top-navbar */
 .top-navbar {
     background-color: white;
-    padding: 20px 60px ;
+    padding: 20px 120px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
 /* Main menu */
 .main-menu {
     /* background-color: var(--primary-color); */
-    padding: 20px 60px ;
+    padding: 20px 120px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,17 +47,19 @@
 }
 
 .main-menu .search-input {
-    padding: 15px 30px;
+    padding: 20px 30px;
     border: solid 2px var(--primary-color);
     border-radius: 50px;
-    width: 25%;
+    width: 50%;
 }
 
 .main-menu .search-button {
-    padding: 15px 30px;
+    padding: 20px 30px;
     border: solid 1px var(--primary-color);
     border-radius: 50px;
     background-color: var(--primary-color);
     color: white;
+    display: flex;
+    gap: 25px;
 }
 
