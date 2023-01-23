@@ -12,6 +12,7 @@ function Navbar() {
             <li>Blog</li>
             <li>Shop</li>
             <li>Contact</li>
+            <li>Login/Register</li>
         </ul>
       </nav>
     );
