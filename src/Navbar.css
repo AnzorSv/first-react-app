@@ -1,10 +1,9 @@
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
+/* top-navbar */
 .top-navbar {
     background-color: var(--primary-color);
     padding: 20px 60px ;
@@ -26,4 +25,21 @@
     list-style: none;
     font-size: 1.2rem;
     color: white;
+}
+
+/* Main menu */
+.main-menu {
+    /* background-color: var(--primary-color); */
+    padding: 20px 60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu .logo {
+    width: 150px;
+}
+
+.main-menu .logo img {
+    width: 100%
 }
