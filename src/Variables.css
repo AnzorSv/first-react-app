@@ -1,4 +1,7 @@
 body {
     --primary-color: #F7035A;
     --light-color: #F9F9F9;
+
+    /* banner */
+    --banner-one-bg-color:#3D8EBE;
   }

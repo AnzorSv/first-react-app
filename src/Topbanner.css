@@ -1,7 +1,37 @@
 .top-banner {
-    width: 95%;
+    width: 88%;
     height: 500px;
     border-radius: 30px;
     margin: 0px auto;
     background-color: var(--light-color);
+    display: flex;
+    padding: 3%;
+    gap: 2%;
 }
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.container-inner {
+    width:100%;
+    min-height: 50px;
+    padding: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.banner-one {
+    width: 32%;
+    min-height: 250px;
+    background-color: var(--banner-one-bg-color);
+    border-radius: 30px;
+}
+
+
