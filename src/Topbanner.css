@@ -34,6 +34,9 @@
  .banner-one {
     width: 100%;
     min-height: 200px;
-    background-color: var(--banner-one-bg-color);
     border-radius: 30px;
+    /* background: url("./img/shoes.png"); */
+    background-color: var(--banner-one-bg-color);
+    /* background-repeat: no-repeat;
+    background-position: 100%; */
 }
