@@ -1,4 +1,5 @@
-.top-banner {
+
+/* .top-banner {
     width: 88%;
     height: 500px;
     border-radius: 30px;
@@ -27,11 +28,12 @@
     justify-content:space-between;
 }
 
-.banner-one {
-    width: 32%;
-    min-height: 250px;
+
+
+ */
+ .banner-one {
+    width: 100%;
+    min-height: 200px;
     background-color: var(--banner-one-bg-color);
     border-radius: 30px;
 }
-
-
